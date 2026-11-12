@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.local
+.npm-cache/
+/.sites-runtime/
+/.openai/
+/prod.txt
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
