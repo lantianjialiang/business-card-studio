@@ -13,6 +13,12 @@ npm run dev
 
 `npm run build` 执行 TypeScript 检查，并生成静态发布目录 `dist/`。运行 `npm run preview` 可检查构建结果。网站使用哈希路由，可部署到静态站点的子路径。
 
+## 部署到 GitHub Pages
+
+1. 在 GitHub 仓库打开 **Settings → Pages**，将 **Source** 设为 **GitHub Actions**。
+2. 将工作流推送到仓库的默认分支。每次推送到默认分支时，工作流会构建项目并发布 `dist/`。也可从 **Actions → Deploy to GitHub Pages → Run workflow** 选择默认分支手动部署。
+3. 部署完成后，从 **Settings → Pages** 打开网站。
+
 ## 制作名片
 
 1. 在「模板库」选择模板，或从「我的设计」打开已有名片。双面名片可在左侧切换正反面。
